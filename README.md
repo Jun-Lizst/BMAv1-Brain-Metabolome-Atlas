@@ -1,6 +1,6 @@
 # Pan-et-al.-2020-Brain-metabolome
 Pang2020
-Scripts for statistics and figures plotting in "Mapping mouse brain metabolome with targeted metabolomics analysis", submitted in Nature Biotechnology 2020.
+Scripts for statistics and figures plotting in "Mapping mouse brain metabolome with targeted metabolomics analysis", submitted in BioRxiv 2020.
 
 /data # metadata, OTU table and taxonomy files
 /fig1-2 # raw data, Rmarkdown scripts and output HTML format results

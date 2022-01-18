@@ -1,9 +1,9 @@
 #############################supplementary fig.5 c and d.
-{setwd("L:/lijun_working/Sun_Ge_lab/Ge Lab/nbt_journal/figures/supplementary_slice_tube_region_average_analysis/")
+{setwd("./figures/supplementary_slice_tube_region_average_analysis/")
   # Import data
   library(dplyr)
   library(readxl)
-  meta_aver <- read_excel("L:/lijun_working/Sun_Ge_lab/Ge Lab/nbt_journal/figures/original_data_from_utsw/big_brain_region_data/20190725_2nd_6_brain_region_average_data.xlsx")
+  meta_aver <- read_excel("./big_brain_region_data/20190725_2nd_6_brain_region_average_data.xlsx")
   meta_count <- data.frame(t(meta_aver), stringsAsFactors = F) 
   colnames(meta_count) = meta_count[1,]                         ###########add colname;
   meta_count1 = as.data.frame(meta_count[-1,])      
@@ -24,16 +24,12 @@ cor_2
 str(cor_2)
 # As you can see "cor_2" is a list so extracting these values is quite simple...
 
-library(PerformanceAnalytics)#加载包
-###################ref data;
-######data(mtcars)#加载数据集
-#####mydata <- mtcars[, c(1,3,4,5,6,7)]
-######head(mydata, 6)#查看数据前6行
-######chart.Correlation(mydata, histogram=TRUE, pch=19)
+library(PerformanceAnalytics)#load package
 #############
 meta_count2 <- as.data.frame(lapply(meta_count1,as.numeric))
 
-chart.Correlation(meta_count2, histogram=TRUE, pch=19, method = "pearson")  ###, pch=19   ##############here meta_count1 should be nemeric matrix
+chart.Correlation(meta_count2, histogram=TRUE, pch=19, method = "pearson")  
+###, pch=19   ##############here meta_count1 should be nemeric matrix
 #############################error
 ##############Error in pairs.default(x, gap = 0, lower.panel = panel.smooth, upper.panel = panel.cor,  : 
 #############non-numeric argument to 'pairs'

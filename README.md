@@ -1,4 +1,4 @@
-# Pan-et-al.-2020-Brain-metabolome
+# BMAv1(Brain Metabolome Atlas)
 Pang2020
 Scripts for statistics and figures plotting in "Mapping mouse brain metabolome with targeted metabolomics analysis", submitted in BioRxiv 2020.
 

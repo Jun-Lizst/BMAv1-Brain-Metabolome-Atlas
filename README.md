@@ -1,4 +1,4 @@
-# BMAv1(Brain Metabolome Atlas)
+# BSMAv1(Brain Spatial Metabolome Atlas)
 Pang2020
 Scripts for statistics and figures plotting in "Mapping mouse brain metabolome with targeted metabolomics analysis", submitted in BioRxiv 2020.
 
@@ -17,3 +17,9 @@ Huanhuan Pang1#, Jun-Liszt Li2,3# ,  Xiao-Ling Hu3,4, Fei Chen5,6, Xiaofei Gao6,
 Shiny app for browsing the brain metabolome atlas: https://leoj.shinyapps.io/brain_metabolome_atlas/
 
 Developed by Jun-Liszt Li(poppingjun7@gmail.com), Woo-Ping Ge & Wenzhi Sun lab, PKU-CIBR
+
+
+
+updated log, 2022-07-09
+I have updated the shiny viewer of our brain metabolome atlas work named BSMAv1. Click and have a look. 
+https://leoj.shinyapps.io/BSMAv1_updated/
